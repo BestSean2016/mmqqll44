@@ -1,0 +1,5 @@
+CC=clang
+CXX=clang++
+INCLUDE_PATH = -I /home/sean/projects/quants/MQL4/Include -I /home/sean/projects/quants/MQL4/Include/Arrays -I /home/sean/projects/quants/MQL4/Include/Canvas -I /home/sean/projects/quants/MQL4/Include/ChartObjects -I /home/sean/projects/quants/MQL4/Include/Charts -I /home/sean/projects/quants/MQL4/Include/Controls -I /home/sean/projects/quants/MQL4/Include/Controls/res -I /home/sean/projects/quants/MQL4/Include/Files -I /home/sean/projects/quants/MQL4/Include/Indicators -I /home/sean/projects/quants/MQL4/Include/Strings -I /home/sean/projects/quants/MQL4/Include/Tools
+
+
