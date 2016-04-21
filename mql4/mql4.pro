@@ -3,17 +3,17 @@ CONFIG += console c++11
 CONFIG -= app_bundle
 CONFIG -= qt
 
-INCLUDEPATH += /home/sean/projects/quants/MQL4/Include
-INCLUDEPATH += /home/sean/projects/quants/MQL4/Include/Arrays
-INCLUDEPATH += /home/sean/projects/quants/MQL4/Include/Canvas
-INCLUDEPATH += /home/sean/projects/quants/MQL4/Include/ChartObjects
-INCLUDEPATH += /home/sean/projects/quants/MQL4/Include/Charts
-INCLUDEPATH += /home/sean/projects/quants/MQL4/Include/Controls
-INCLUDEPATH += /home/sean/projects/quants/MQL4/Include/Controls/res
-INCLUDEPATH += /home/sean/projects/quants/MQL4/Include/Files
-INCLUDEPATH += /home/sean/projects/quants/MQL4/Include/Indicators
-INCLUDEPATH += /home/sean/projects/quants/MQL4/Include/Strings
-INCLUDEPATH += /home/sean/projects/quants/MQL4/Include/Tools
+INCLUDEPATH += /home/sean/projects/quants/mmqqll44/Include
+INCLUDEPATH += /home/sean/projects/quants/mmqqll44/Include/Arrays
+INCLUDEPATH += /home/sean/projects/quants/mmqqll44/Include/Canvas
+INCLUDEPATH += /home/sean/projects/quants/mmqqll44/Include/ChartObjects
+INCLUDEPATH += /home/sean/projects/quants/mmqqll44/Include/Charts
+INCLUDEPATH += /home/sean/projects/quants/mmqqll44/Include/Controls
+INCLUDEPATH += /home/sean/projects/quants/mmqqll44/Include/Controls/res
+INCLUDEPATH += /home/sean/projects/quants/mmqqll44/Include/Files
+INCLUDEPATH += /home/sean/projects/quants/mmqqll44/Include/Indicators
+INCLUDEPATH += /home/sean/projects/quants/mmqqll44/Include/Strings
+INCLUDEPATH += /home/sean/projects/quants/mmqqll44/Include/Tools
 
 SOURCES += main.cpp \
     ../Experts/First_Stratege.cpp \
