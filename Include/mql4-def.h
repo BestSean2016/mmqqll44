@@ -16,6 +16,14 @@ namespace MQL4 {
 typedef time_t datetime;
 typedef unsigned long ulong;
 typedef unsigned int  color;
+typedef unsigned short  MARKET_ID;
+
+#define SYMBOL_NAME_LENGTH 32
+typedef char SYMBOL_NAME[SYMBOL_NAME_LENGTH];
+
+#define MAX_DEEP_PRICE 5
+typedef double DEEP_PRICE[MAX_DEEP_PRICE];
+typedef ulong  DEEP_VOLUME[MAX_DEEP_PRICE];
 
 //mql4
 enum ENUM_TIMEFRAMES {
@@ -199,11 +207,16 @@ typedef struct MqlRates
 //This is a structure for storing the latest prices of the symbol. It is designed for fast retrieval of the most requested information about current prices.
 typedef struct MqlTick
 {
+    MARKET_ID    market;
+    SYMBOL_NAME  symblol;
     datetime     time;          // Time of the last prices update
-    double       bid;           // Current Bid price
-    double       ask;           // Current Ask price
     double       last;          // Price of the last deal (Last)
-    ulong        volume;        // Volume for the current Last price
+    DEEP_PRICE   bid;           // Bid price
+    DEEP_PRICE   ask;           // Ask price
+    ulong        last_volume;                // Volume for the current Last price
+    DEEP_VOLUME  bid_volume;
+    DEEP_VOLUME  ask_volume;
+
 } MqlTick ;
 
 } //namespace MQL4
